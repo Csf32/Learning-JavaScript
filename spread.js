@@ -27,6 +27,8 @@ const jogador3 ={
 }
 console.log(jogador3)
 
+
+
 const soma = (v1,v2,v3) =>{
     return v1+v2+v3
 }
@@ -34,8 +36,9 @@ const soma = (v1,v2,v3) =>{
 let valores = [1,5,4]
 console.log(soma(...valores))
 
+const dom1 = document.getElementsByTagName("div")
+const dom2 = [...document.getElementsByTagName("div")] 
 
-const dom2 = [...document.getElementsByTagName("div")]
 
 dom2.forEach(Element => { 
     Element.innerHTML = "Curso"
@@ -47,6 +50,8 @@ for(let i=0;i<num.length;i++){
     console.log(num[i]) 
 }
 
+
+
 for(n in num){ 
-    console.log(num[n]) 
+    console.log(num[n])
 }

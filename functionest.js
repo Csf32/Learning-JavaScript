@@ -5,7 +5,6 @@ function soma (...valores) {
 
 console.log(soma(10,5)) 
 
-
 function logger (valorA, ...valorB) {
     console.log(valorA, valorB)
   }

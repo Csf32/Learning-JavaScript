@@ -7,10 +7,9 @@ for(let i=0;i<num.length;i++){
 
 
 
-for(n in num){
+for(n in num){ 
     console.log(num[n]) 
 }
-
 
 for(x of num){
     console.log(x)

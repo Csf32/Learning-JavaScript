@@ -1,11 +1,12 @@
 
+
 let f = function(v1, v2) {
     return v1 + v2
 }
 
 console.log(f(10,5))
 
-
+//2º caso
 
 const valor = function(...valores) {
     
@@ -18,6 +19,8 @@ const valor = function(...valores) {
 }
 
 console.log(valor(10,5))
+
+//3º Caso:
     
 const func = new Function("a1", "a2", "return a1 + a2") 
 
